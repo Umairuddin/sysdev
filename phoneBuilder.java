@@ -1,6 +1,7 @@
 public class phoneBuilder {
 
-    public phoneType buildSonyphone() {
+    // Making the Apple phone
+    public phoneType buildApplephone() {
         phoneType phone = new phoneType();
         phone.addItem(new Apple());
         return phone;
